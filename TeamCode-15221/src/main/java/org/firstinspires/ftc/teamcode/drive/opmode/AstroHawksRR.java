@@ -1,13 +1,11 @@
 //package org.firstinspires.ftc.teamcode;
-package org.firstinspires.ftc.teamcode;
+package org.firstinspires.ftc.teamcode.drive.opmode;
 
 
 import com.acmerobotics.roadrunner.geometry.Pose2d;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
-import com.qualcomm.robotcore.hardware.CRServo;
 import com.qualcomm.robotcore.hardware.DcMotor;
-import com.qualcomm.robotcore.hardware.DcMotorSimple;
 import com.qualcomm.robotcore.hardware.Servo;
 
 import org.firstinspires.ftc.teamcode.drive.SampleMecanumDrive;
@@ -15,8 +13,8 @@ import org.firstinspires.ftc.teamcode.drive.SampleMecanumDrive;
 
 
 
-@TeleOp(group = "MightyHawks_RR")
-public class MightyHawks_RR extends LinearOpMode {
+@TeleOp(group = "AstroHawksRR")
+public class AstroHawksRR extends LinearOpMode {
 
     private DcMotor slider;
     //private DcMotor intake; // intake
